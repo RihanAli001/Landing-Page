@@ -1,0 +1,9 @@
+.nav-link>a {
+    text-decoration: none;
+    padding-inline: 10px;
+    color: black;
+}
+
+.nav-link>a:hover {
+    color: blue;
+}
