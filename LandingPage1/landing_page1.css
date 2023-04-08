@@ -7,3 +7,28 @@
 .nav-link>a:hover {
     color: blue;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-inline-start: 20px;
+        font-size: xx-large;
+    }
+
+    .nav-button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .footer-link {
+        flex-direction: column;
+    }
+}
